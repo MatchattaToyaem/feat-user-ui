@@ -1,0 +1,12 @@
+version: "3.7"
+services:
+  app:
+    container_name: "feet-ui"
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: oong2543/feat-ui:lastest
+    ports:
+      - 3000:80
+    environment:
+      REACT_APP_END_POINTS: http://localhost:8080/raw_volunteers

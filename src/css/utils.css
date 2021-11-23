@@ -1,0 +1,34 @@
+.flex-box {
+  text-align: end;
+}
+.float-right {
+  display: flex;
+  align-items: flex-end;
+  float: inline-end;
+  color: aquamarine;
+}
+.flex-container {
+  height: 100vh;
+  display: flex;
+}
+
+.flex-item {
+  flex-basis: auto;
+}
+
+.box {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+}
+
+.box .row.content {
+  flex: 1 1 auto;
+  padding: 0px;
+  position: relative;
+}
+
+.canvas{
+  height: 100%;
+  width: 100%;
+}

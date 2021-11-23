@@ -1,0 +1,7 @@
+{
+  "name": "tt",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
